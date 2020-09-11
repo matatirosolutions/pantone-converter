@@ -1,0 +1,37 @@
+{
+    "name": "matatirosoln/pantone-converter",
+    "description": "Convert from a named Pantone coated colour to Hex, RGB or CMYK variants",
+    "keywords": [
+        "Colors",
+        "PANTONE",
+        "HEX",
+        "RGB",
+        "CMYK"
+    ],
+    "authors": [
+        {
+            "name": "Steve Winter",
+            "email": "steve@msdev.nz"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "email": "support@msdev.nz",
+        "issues": "https://github.com/matatirosolutions/pantone-converter/issues"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "MSDev\\": "src/"
+        }
+    }
+}
